@@ -38,4 +38,4 @@ gulp.task('watch', function() {
     gulp.watch('./scss/styles.scss', gulp.series('styles'));
 });
 
-gulp.task('build', ['css', 'js', 'imgs']);
+gulp.task('build', ['./css', './js', './images']);
